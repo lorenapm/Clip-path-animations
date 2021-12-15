@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Indie Flower", cursive;
+  display: flex;
+  min-height: 100vh;
+}
+.book {
+  width: 410px;
+  height: 500px;
+  background-color: #e0e0e4;
+  background-size: 40px 40px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #6c63ff,
+    #6c63ff 1.8px,
+    #e0e0e4 1.8px,
+    #e0e0e4
+  );
+  padding: 45px 0 45px 70px;
+  margin: auto;
+  border: 1px solid #6c63ff;
+  position: relative;
+}
+.book__img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -50px;
+  right: -50px;
+  transform: rotate(360deg) scale(0);
+}
+.book__title {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+.book__paragraph {
+  font-size: 1.3rem;
+}
+.line {
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  background-color: crimson;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: 85px;
+  left: 10px;
+  border-radius: 50%;
+  color: white;
+  /* creo los otros dos orificios como una sombra blanca*/
+  box-shadow: 0 160px, 0 320px;
+}
+.line-h {
+  background: rgb(224, 224, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 224, 228, 1) 0%,
+    rgba(148, 148, 149, 1) 100%
+  );
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  top: 95px;
+  left: -25px;
+  border-radius: 50%;
+}
+.line-h::before {
+  content: "";
+  background: rgb(224, 224, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 224, 228, 1) 0%,
+    rgba(148, 148, 149, 1) 100%
+  );
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  top: 160px;
+  border-radius: 50%;
+}
+.line-h::after {
+  content: "";
+  background: rgb(224, 224, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 224, 228, 1) 0%,
+    rgba(148, 148, 149, 1) 100%
+  );
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  top: 320px;
+  border-radius: 50%;
+}
