@@ -7,3 +7,6 @@ https://user-images.githubusercontent.com/81964101/146188558-088ff2e1-a266-481a-
 
 ## Modal
 Animated modal only with CSS3 and Clip-path.
+
+https://user-images.githubusercontent.com/81964101/146332057-d2a390af-126b-42ae-ac85-0935b88d4471.mov
+
