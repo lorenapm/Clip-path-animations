@@ -10,3 +10,7 @@ Animated modal only with CSS3 and Clip-path.
 
 https://user-images.githubusercontent.com/81964101/146332057-d2a390af-126b-42ae-ac85-0935b88d4471.mov
 
+## Animated buttons: CSS and Clip-path
+
+https://user-images.githubusercontent.com/81964101/146342952-148dd843-8e8f-4d75-86e2-9d95db0b6510.mov
+
